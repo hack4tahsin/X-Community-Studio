@@ -1,0 +1,163 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* General body styles */
+body {
+    background-color: #ecf0f1;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Logo styles */
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navigation styles */
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Auth buttons styles */
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Login button styles */
+.login-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Register button styles */
+.register-btn {
+    background-color: #2ecc71;
+    color: white;
+}
+
+/* Hero section styles */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #ecf0f1;
+}
+
+.form-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.form-group {
+    margin-top: 0.5%;
+}
+
+select {
+    padding: 0.5%;
+}
+
+.generate-qr {
+    padding: 1%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 1.5%;
+}
+
+.auth-btn {
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0.5%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group input {
+    border-radius: none;
+    border-radius: 5px;
+}
+
+/* Primary button styles */
+.primary-btn {
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+/* Feature card styles */
+.feature-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    flex: 1 1 300px;
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Input fields inside feature cards */
+.feature-card input {
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

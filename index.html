@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>X Community Studio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">X Community Studio</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Day Pass</a>
+      <a href="#">Corporate</a>
+      <a href="#">Admin</a>
+    </nav>
+    <div class="auth-buttons">
+        <a href="login.html" style="text-decoration: none; color: white;"><button class="login-btn"> Login </button></a>
+        <a href="register.html" style="text-decoration: none; color: white;"><button class="register-btn">Register</button></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Book Your Day Pass Now</h1> <br />
+      <p>Experience coworking freedom and community connections.</p>
+      <button class="primary-btn"> Book Now
+        <input type="date" id="visit-date" style="display:none; margin-top: 10px;" />
+      </button>  
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+          <h2>QR Code Generator</h2>
+          <input type="text" placeholder="Enter your pass ID" />
+          <button class="generate-qr">Generate QR</button>
+        </div>
+        <div class="feature-card">
+          <h2>Upcoming Visits</h2> <br />
+          <ul class="upcoming-visits-list"></ul>
+        </div>
+        <div class="feature-card">
+          <h2>Payment</h2> <br />
+          <form id="payment-form">
+            <div class="form-group">
+              <label for="card-name">Cardholder Name:</label>
+              <input type="text" id="card-name" name="card-name" placeholder="Tahsin Ahmed" required />
+            </div>
+            <div class="form-group">
+              <label for="card-number">Card Number:</label>
+              <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456" required />
+            </div>
+            <div class="form-group">
+              <label for="expiry-date">Expiry Date:</label>
+              <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required />
+            </div>
+            <div class="form-group">
+              <label for="cvv">CVV:</label>
+              <input type="text" id="cvv" name="cvv" placeholder="123" required />
+            </div>
+            <div class="form-group">
+              <label for="payment-method">Payment Method:</label>
+              <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+              </select>
+            </div>
+            <button type="submit" class="primary-btn">Proceed to Payment</button>
+          </form>
+        </div>
+      </section>
+  </main>
+
+  <footer>
+    <p>© 2025 X Community Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

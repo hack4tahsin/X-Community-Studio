@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">X Community Studio</div>
+        <nav>
+          <a href="#">Home</a>
+          <a href="index.html">Day Pass</a>
+          <a href="#">Corporate</a>
+          <a href="#">Admin</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="login.html" style="text-decoration: none; color: white;"><button class="login-btn"> Login </button></a>
+            <a href="register.html" style="text-decoration: none; color: white;"><button class="register-btn">Register</button></a>
+        </div>
+    </header>
+
+    <main>
+    <div class="hero">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="loginUsername" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="loginPassword" name="password" required>
+            </div>
+            <button class="auth-btn" type="submit">Login</button>
+        </form>
+        <p>Forgot passowrd! <a href="#">Recover now</a></p> <br />
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
+    </div>
+    </main>
+
+    <footer>
+        <p>© 2025 X Community Studio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
